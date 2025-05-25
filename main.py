@@ -6,7 +6,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-
 def main():
     model = ChatOpenAI(temperature=0)
     tools = []
