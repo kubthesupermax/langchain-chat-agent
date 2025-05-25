@@ -15,6 +15,6 @@ Runs in the terminal and responds to user input with AI-generated answers.
 2. Create a `.env` file with your OpenAI API key (`OPENAI_API_KEY=your_key`)  
 3. Install dependencies using `uv`:
    ```bash
-   uv install
+   uv add
 4. Run the app:
     uv run main.py
